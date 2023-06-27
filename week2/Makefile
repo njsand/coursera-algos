@@ -6,7 +6,6 @@ ZIPFILE=collinear.zip
 
 compile:
 	javac -cp ../algs4.jar -Xlint:unchecked ${SOURCES}
-# javac -cp algs4.jar ${SOURCES}
 
 zip:
 	zip ${ZIPFILE} ${SOURCES}
